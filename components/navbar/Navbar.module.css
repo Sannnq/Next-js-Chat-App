@@ -1,0 +1,14 @@
+.user{
+    color: #fff; 
+    position: relative;
+    float: left;  
+}
+#Contain{
+    display: block;
+    
+}
+#Contain img{
+    position:relative;
+    left: 12px;
+}
+
