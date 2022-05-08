@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the node server:
+First, run the socket.io server:
 
 ```bash
 $ cd/server
