@@ -5,14 +5,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the socket.io server:
 
 ```bash
-$ cd/server
-$ nodemon server.js
+cd/server
+nodemon server.js
 
 ```
 Then, run the development server:
 
 ```bash
-$ npm run dev
+npm run dev
 ```
 
 
