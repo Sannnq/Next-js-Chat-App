@@ -2,8 +2,8 @@
   width: 100%;
   height: 800px;
   background-color: #dee9ff;
-  scrollbar-color: #d4aa70 #d6a9a9;
-  scrollbar-width: thin;
+  /* scrollbar-color: #d4aa70 #d6a9a9;
+  scrollbar-width: thin; */
   overflow-y: auto;
   overflow-x: hidden;
 }

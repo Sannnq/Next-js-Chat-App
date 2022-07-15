@@ -6,16 +6,20 @@ import { setCookies, useCookies } from "react-cookie";
 import style from "../styles/Home.module.css";
 
 export default function home() {
-  const [cookie, setCookie] = useCookies(["user"]);
+  const [Users, setUsers] = useState("");
   const [logged, setLogged] = useState(0);
-  var username = cookie.user;
+  var username = Users;
 
   const setUser = (e) => {
-    setCookie("user", e.target.value);
+    setUsers(e.target.value);
   };
 
   const form = (e) => {
-    setLogged(1);
+    if (Users !== "") {
+      setLogged(1);
+    } else {
+      window.alert("Choisissez un pseudonyme");
+    }
   };
 
   const Messages = dynamic(() => import("../components/messages/Messages"));
