@@ -1,4 +1,4 @@
-import Socket from "../../pages/Socketio";
+import Socket from "../../pages/Socketio.js";
 import React, { useState, useEffect } from "react";
 import style from "./Navbar.module.css";
 import dynamic from "next/dynamic";
