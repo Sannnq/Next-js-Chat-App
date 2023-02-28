@@ -1,9 +1,9 @@
-import socket from "../../pages/socketio";
+import Socket from "../../pages/Socketio";
 import React, { useState, useEffect } from "react";
 import style from "./Messages.module.css";
 import dynamic from "next/dynamic";
 
-export default function message(props) {
+export default function Message(props) {
   const [message, setMessage] = useState("");
   const [field, setField] = useState([]);
   var me = props.user;
@@ -29,18 +29,18 @@ export default function message(props) {
   };
   const handleMessage = () => {
     if (message !== "") {
-      socket.emit("channel", { message: message, user: props.user });
+      Socket.emit("channel", { message: message, user: props.user });
       setMessage("");
     }
   };
 
-  socket.on("message", (data) => {
+  Socket.on("message", (data) => {
     setField([...field, data]);
   });
 
   const Submit = (e) => {
     e.preventDefault();
-    socket.emit("message", {
+    Socket.emit("message", {
       user: props.user,
       mess: message,
     });

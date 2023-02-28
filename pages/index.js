@@ -1,13 +1,13 @@
-import socket from "./socketio";
+import Socket from "./Socketio";
 import dynamic from "next/dynamic";
 import React, { useState, useEffect, useRef } from "react";
 //import messages from "../components/messages/Messages";
 import { setCookies, useCookies } from "react-cookie";
 import style from "../styles/Home.module.css";
 
-export default function home() {
+export default function Home() {
   const [Users, setUsers] = useState("");
-  const [logged, setLogged] = useState(0);
+  const [Logged, setLogged] = useState(0);
   var username = Users;
 
   const setUser = (e) => {
@@ -26,7 +26,7 @@ export default function home() {
   const Navbar = dynamic(() => import("../components/navbar/Navbar"));
   return (
     <div className="main" style={{ left: "50%" }}>
-      {!logged ? (
+      {!Logged ? (
         <div className="registration-form">
           <form onSubmit={form}>
             <div className="title">

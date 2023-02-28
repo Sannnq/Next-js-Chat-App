@@ -1,10 +1,10 @@
-import socket from "../../pages/socketio";
+import Socket from "../../pages/Socketio";
 import React, { useState, useEffect } from "react";
 import style from "./Navbar.module.css";
 import dynamic from "next/dynamic";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-export default function navbar(props) {
+export default function Navbar(props) {
   let me = props.user;
   return (
     <header className="d-flex justify-content-center py-3 bg-primary">
