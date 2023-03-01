@@ -1,0 +1,32 @@
+[debug] [2023-03-01T01:38:20.856Z] ----------------------------------------------------------------------
+[debug] [2023-03-01T01:38:20.859Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2023-03-01T01:38:20.860Z] CLI Version:   11.24.0
+[debug] [2023-03-01T01:38:20.860Z] Platform:      linux
+[debug] [2023-03-01T01:38:20.861Z] Node Version:  v18.8.0
+[debug] [2023-03-01T01:38:20.861Z] Time:          Wed Mar 01 2023 02:38:20 GMT+0100 (GMT+02:00)
+[debug] [2023-03-01T01:38:20.861Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-01T01:38:20.878Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-01T01:38:20.879Z] > authorizing via signed-in user (founguesflorin@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/f/nextjs/Next-js-Chat-App/server
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
