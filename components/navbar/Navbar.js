@@ -1,7 +1,5 @@
-import Socket from "../../pages/Socketio.js";
 import React, { useState, useEffect } from "react";
 import style from "./Navbar.module.css";
-import dynamic from "next/dynamic";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 export default function Navbar(props) {

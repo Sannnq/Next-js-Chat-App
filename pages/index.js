@@ -1,4 +1,3 @@
-import Socket from "./Socketio.js";
 import dynamic from "next/dynamic";
 import React, { useState, useEffect, useRef } from "react";
 //import messages from "../components/messages/Messages";
